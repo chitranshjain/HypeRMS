@@ -1,0 +1,109 @@
+.card {
+    transition: all 200ms;
+
+    &:hover {
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+}
+
+.headerContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.titleWrapper {
+    flex: 1 1 0%;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.cardTitle {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.badgesContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.description {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.linksContainer {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.linkButton {
+    gap: 0.375rem;
+}
+
+.icon {
+    height: 0.75rem;
+    width: 0.75rem;
+}
+
+.prerequisitesContainer {
+    padding-top: 0.75rem;
+    border-top: 1px solid hsl(var(--border));
+}
+
+.prerequisitesHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.prerequisitesLabel {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+.statusContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.statusIcon {
+    height: 0.875rem;
+    width: 0.875rem;
+}
+
+.statusSuccess {
+    color: hsl(var(--success));
+}
+
+.statusWarning {
+    color: hsl(var(--warning));
+}
+
+.statusText {
+    color: hsl(var(--muted-foreground));
+}
+
+.viewButton {
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+.triggerButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    height: 1rem;
+    width: 1rem;
+}
+
+.formContainer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.dateButton {
+    width: 100%;
+    justify-content: flex-start;
+    text-align: left;
+    font-weight: 400;
+
+    &.placeholder {
+        color: hsl(var(--muted-foreground));
+    }
+}
+
+.calendarIcon {
+    margin-right: 0.5rem;
+    height: 1rem;
+    width: 1rem;
+}
+
+.calendar {
+    padding: 0.75rem;
+    pointer-events: auto;
+}
